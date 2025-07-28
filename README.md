@@ -20,7 +20,7 @@ Layer	Technology
 Backend	.NET 9 Web API
 ORM	Entity Framework Core
 Database	SQL Server
-Tooling	Swagger, EF CLI
+Tooling	Scalar, EF CLI
 
 📁 Project Structure
 pgsql
@@ -45,7 +45,7 @@ SQL Server installed locally or remotely
 
 Visual Studio 2022+ / VS Code
 
-(Optional) Postman or Swagger UI for testing
+(Optional) Postman or Scalar UI for testing
 
 1. Clone the Project
 bash
@@ -86,8 +86,8 @@ Visit:
 bash
 Copy
 Edit
-https://localhost:5001/swagger
-to explore the API using 
+[https://localhost:7202/scalar/v1#tag/videogame/get/api/VideoGame)]
+to explore the API using Scalar UI
 
 🧪 API Endpoints
 Method	Route	Description
